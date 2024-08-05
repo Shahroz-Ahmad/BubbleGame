@@ -47,11 +47,11 @@ function makeBubbles() {
     } else if (window.innerWidth <= 1280) {
         numBubbles = 99;
     } else if (window.innerWidth <= 1440) {
-        numBubbles = 113
+        numBubbles = 112
     } else if (window.innerWidth <= 1920) {
-        numBubbles = 137;
+        numBubbles = 136;
     } else {
-        numBubbles = 137;
+        numBubbles = 136;
     }
 
     // Generate a random target number
