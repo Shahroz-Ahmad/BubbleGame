@@ -15,8 +15,6 @@ function scoreDec() {
 function hitRandom() {
     arrIndex = Math.floor(Math.random() * randomNumbersArrays.length)
     randomNumbers = randomNumbersArrays[arrIndex];
-    // console.log(randomNumbers, 'numbers');
-    // console.log(randomNumbersArrays.length, 'numbers');
 
     document.querySelector('.hit').innerHTML = randomNumbers
 }
